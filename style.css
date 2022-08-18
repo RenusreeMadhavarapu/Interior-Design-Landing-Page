@@ -1,0 +1,417 @@
+.container{
+
+    min-height: 100vh;
+    width:100vw;
+  }
+  html,body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+  
+  body{
+  
+  
+    background-image:url(assets/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+    font-family: 'Poppins';
+    margin:0;
+    padding:0;
+  }
+/* header section */
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+   
+}
+img[alt="logo"]{
+    width:120px;
+   
+
+}
+ nav{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+    
+ }
+ img.logo{
+    width:150px;
+    margin-left:50px;
+    margin-top:10px;
+   
+
+}
+.nav-items{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom: 2px solid #fff;
+  padding-bottom:10px;
+  
+}
+.nav-item{
+   
+    font-size:17px;
+    color:#fff;
+  margin-right:30px;
+    font-size:20px;
+    cursor:pointer;
+    
+    
+}
+
+.number{
+    display:flex;
+    align-items:center;
+    color:#fff;
+   margin-right:50px;
+    font-size:20px;
+    position:relative;
+    padding-bottom:33px;
+    padding-right:150px;
+    border-bottom: 2px solid #fff;
+    margin-bottom:10px;
+    
+   
+}
+.contact-number{
+    position:absolute;
+    top:28%;
+}
+img.phncall{
+    margin-top:25px;
+    margin-right:5px;
+    cursor:pointer;
+}
+   
+div.menu{
+    display:none;
+}
+/* media queries for header section */
+@media (max-width:1230px){
+
+    img.logo{
+        margin-left:20px;
+    }
+}
+
+@media (max-width:1175px){
+
+    nav{
+        display:none;
+    }
+    div.menu{
+        display: block;
+        color:#fff;
+        font-size:30px;
+        margin-right:50px;
+        cursor:pointer;
+    }
+    header{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+       margin-top:20px;
+       
+    }
+    img.logo{
+        margin-left:50px;
+        width:100px;
+    }
+}
+/* intro section */
+.intro-section{
+    display:flex;
+    justify-content:space-between;
+}
+.left-section{
+
+    margin-left:100px;
+    margin-top:30px;
+}
+.text{
+    color:#fff;
+    font-size:400%;
+    width:60%;
+}
+button.learn-btn{
+
+    width:220px;
+    color:#fff;
+    font-size:20px;
+    font-weight:500;
+    background: transparent;
+    border-radius: 30px;
+    height:60px;
+    border:2px solid #fff;
+   cursor:pointer;
+}
+/* right section */
+.right-section{
+    margin-top:50px;
+  
+}
+/* puzzle section */
+.line1{
+    border-left: 1px solid #fff;
+
+height: 40px;
+margin-left:100px;
+
+}
+.circle1{
+
+    height: 15px;
+      width: 15px;
+      background-color:#fff;
+      border-radius: 50%;
+      margin-left:100px;
+}
+.puzzle{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:50px;
+    display: flex;
+   right:50%;
+    position:relative;
+    cursor:pointer;
+}
+.puzzle-content { 
+    position: relative; 
+    height: 150px;
+    width: 250px;
+    z-index:1;
+   
+}
+
+.puzzle-content::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    opacity:0.2;
+    z-index:-1;
+}
+
+.puzzle-description{
+    color:#fff;
+    margin-left:30px;
+    font-size:14px;
+    font-weight:600;
+    
+}
+img.puzzle-image{
+    border-radius: 10px;
+    margin-left:30px;
+    margin-top:10px;
+   
+   
+}
+/*idea section */
+
+.idea{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:50px;
+    display: flex;
+    position:relative;
+    right:400px;
+    margin-top:130px;
+    cursor:pointer;
+   
+}
+
+.line2{
+    border-bottom: 1px solid #fff;
+    position:absolute;
+   bottom:50%;
+   left:250px;
+
+   
+width:80px;
+
+}
+.circle2{
+
+    height: 15px;
+      width: 15px;
+      background-color:#fff;
+      border-radius: 50%;
+      position:absolute;
+      bottom:45%;
+      left:320px;
+}
+.idea-content { 
+    position: relative; 
+    height: 150px;
+    width: 250px;
+    z-index:1;
+   
+}
+
+.idea-content::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    opacity:0.2;
+    z-index:-1;
+}
+
+.idea-description{
+    color:#fff;
+    margin-left:30px;
+    font-size:14px;
+    font-weight:600;
+    
+}
+img.idea-image{
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left:30px;
+    
+   
+   
+}
+/* media queries for intro section */
+
+@media (max-width:1230px){
+
+    .intro-section{
+        margin-bottom:100px;
+    }
+
+    .idea{
+        right:300px;
+    }
+    
+}
+
+@media (max-width:1165px){
+
+   
+
+    .idea{
+        right:200px;
+    }
+    .puzzle{
+        right:20%;
+    }
+    .text{
+        width:70%;
+    }
+}
+
+@media (max-width:1065px){
+
+   
+
+    .idea{
+        right:150px;
+    }
+    .puzzle{
+        right:10%;
+    }
+    .text{
+        width:80%;
+    }
+    .left-section{
+        margin-left:50px;
+    }
+}
+@media (max-width:860px){
+
+   
+.intro-section{
+    flex-direction:column;
+    
+}
+.left-section{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+
+
+.line2{
+    border-bottom: 1px solid #fff;
+    position:relative;
+    bottom:80px;
+    left:165px;
+
+   
+width:80px;
+
+}
+.circle2{
+
+    height: 15px;
+      width: 15px;
+      background-color:#fff;
+      border-radius: 50%;
+      position:relative;
+      bottom:85px;
+      left:200px;
+}
+.text{
+    width:100%;
+}
+.puzzle{
+    margin-left:200px;
+}
+   
+}
+
+@media (max-width:550px){
+
+    .text{
+        font-size:350%;
+        
+    }
+}
+@media (max-width:500px){
+
+    .text{
+        font-size:300%;
+        
+    }
+    button.learn-btn{
+
+        width:180px;
+        color:#fff;
+        font-size:15px;
+        font-weight:500;
+        background: transparent;
+        border-radius: 30px;
+        height:40px;
+        border:2px solid #fff;
+       
+    }
+}
+@media (max-width:610px){
+
+    .idea{
+        margin-left:150px;
+    }
+    
+
+}
+@media (max-width:510px){
+
+    .idea{
+        margin-left:200px;
+    }
+    
+
+}
