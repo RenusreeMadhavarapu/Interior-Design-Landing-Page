@@ -418,10 +418,14 @@ width:80px;
 @media (max-width:450px){
 
 
+    .puzzle{
+        margin-left:100px;
+        margin-right:30px;
+    }
     .puzzle-content { 
        
-        width: 150px;
-       height:100px;
+        width: 180px;
+       height:150px;
     }
     .puzzle-description{
         font-size:10px;
