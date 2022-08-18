@@ -443,7 +443,7 @@ width:80px;
      height:10px;
     }
    
-}
+
 .idea-content{
     width: 180px;
     height:130px;
@@ -469,4 +469,25 @@ width:50px;
 .idea{
     margin-left:250px;
     margin-right:30px;
+}
+.line2{
+    border-bottom: 1px solid #fff;
+    position:relative;
+    bottom:80px;
+    left:80px;
+
+   
+width:80px;
+
+}
+.circle2{
+
+    height: 15px;
+      width: 15px;
+      background-color:#fff;
+      border-radius: 50%;
+      position:relative;
+      bottom:85px;
+      left:100px;
+}
 }
