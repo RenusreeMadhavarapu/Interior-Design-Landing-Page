@@ -415,3 +415,28 @@ width:80px;
     
 
 }
+@media (max-width:450px){
+
+
+    .puzzle-content { 
+       
+        width: 150px;
+       height:100px;
+    }
+    .puzzle-description{
+        font-size:10px;
+    }
+    .puzzle-image{
+        width:60px;
+    }
+    .line1{
+        height:30px
+
+    }
+    .circle1{
+
+     width:10px;
+     height:10px;
+    }
+   
+}
