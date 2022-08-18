@@ -429,10 +429,13 @@ width:80px;
     }
     .puzzle-description{
         font-size:10px;
+        margin-left:15px;
     }
     .puzzle-image{
         width:60px;
+        margin-left:15px;
     }
+   
     .line1{
         height:30px;
 
@@ -452,9 +455,11 @@ width:80px;
 
 .idea-description{
     font-size:10px;
+    margin-left:15px;
 }
 .idea-image{
     width:60px;
+    margin-left:15px;
 }
 .line2{
     
@@ -474,7 +479,7 @@ width:50px;
     border-bottom: 1px solid #fff;
     position:relative;
     bottom:80px;
-    left:120px;
+    left:150px;
 
    
 width:80px;
@@ -488,6 +493,6 @@ width:80px;
       border-radius: 50%;
       position:relative;
       bottom:85px;
-      left:140px;
+      left:180px;
 }
 }
