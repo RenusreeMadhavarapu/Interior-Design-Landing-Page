@@ -19,7 +19,7 @@
   
   
   ### Project Deploy Link
-  [Interior Home](https://justicehome.netlify.app/)
+  [Interior Home](https://interior-home.netlify.app/)
   
  
  ### Author
